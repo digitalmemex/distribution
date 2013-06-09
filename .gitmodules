@@ -1,0 +1,3 @@
+[submodule "bundles/dmx-webclient"]
+	path = bundles/dmx-webclient
+	url = git://github.com/dgf/dmx-webclient.git
