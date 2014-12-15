@@ -1,15 +1,24 @@
-# Digital MemeX (DMX)
+# DigitalMemex Distribution
 
-Digital Memory eXtender (alpha)
-
-interactive distibuted knowledge and application plattform
+collaborative distributed knowledge and coding engine
 
 backend is provided by
 
-* [DeepaMehta 4](https://github.com/jri/deepamehta) 4.1
-* [Karaf](https://karaf.apache.org/) 2.3.0
-* [ActiveMQ](http://activemq.apache.org/) 5.8.0
+* [DeepaMehta 4](https://github.com/digitalmemex/deepamehta)
+* [Karaf](https://karaf.apache.org/)
 
-all funky Browser stuff provided by
-[DMX Webclient](https://github.com/dgf/dmx-webclient)
+## Usage
 
+The standard OSGi HTTP Port is 17071
+
+### access the underlying components
+
+DeepaMehta 4 Webclient
+* User: admin
+* Pass:
+* URL : [/de.deepamehta.webclient](http://localhost:17071/de.deepamehta.webclient)
+
+Karaf WebConsole
+* User: karaf
+* Pass: karaf
+* URL : [/system/console](http://localhost:17071/de.deepamehta.webclient)

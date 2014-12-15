@@ -5,13 +5,13 @@
 
     <groupId>org.digitalmemex</groupId>
     <artifactId>features</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>Digital MemeX :: Features</name>
+    <version>0.0.2-SNAPSHOT</version>
+    <name>DigitalMemeX :: Features</name>
 
     <parent>
         <groupId>org.digitalmemex</groupId>
         <artifactId>global</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -29,7 +29,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
-                <version>2.6</version>
+                <version>2.7</version>
                 <configuration>
                     <useDefaultDelimiters>false</useDefaultDelimiters>
                     <delimiters>
@@ -49,7 +49,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
-                <version>1.7</version>
+                <version>1.9.1</version>
                 <executions>
                     <execution>
                         <id>attach-artifacts</id>

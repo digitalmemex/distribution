@@ -5,17 +5,17 @@
 
     <groupId>org.digitalmemex</groupId>
     <artifactId>global</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Digital MemeX :: Global</name>
+    <name>DigitalMemeX :: Global</name>
 
     <properties>
+        <dmx.port>17071</dmx.port>
         <karaf.name>dmx</karaf.name>
-        <karaf.version>2.3.0</karaf.version>
-        <activemq.version>5.8.0</activemq.version>
+        <karaf.version>2.4.0</karaf.version>
 
-        <dm4.version>4.1</dm4.version>
-        <dm4.host.url>http://localhost:17071</dm4.host.url>
+        <dm4.version>4.4.1</dm4.version>
+        <dm4.host.url>http://localhost:${dmx.port}</dm4.host.url>
 
         <dm4.security.read_requires_login>true</dm4.security.read_requires_login>
         <dm4.security.write_requires_login>true</dm4.security.write_requires_login>
@@ -25,19 +25,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>deepamehta-public-repository</id>
-            <url>http://deepamehta.newthinking.net/maven2</url>
-        </repository>
-        <repository>
-            <id>deepamehta-jenkins-repository</id>
-            <url>http://ci.deepamehta.de/repository</url>
-        </repository>
-    </repositories>
-
     <modules>
-        <module>bundles</module>
         <module>features</module>
         <module>branding</module>
         <module>distribution</module>
@@ -48,7 +36,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.5.1</version>
+                <version>3.2</version>
                 <configuration>
                     <source>1.6</source>
                     <target>1.6</target>

@@ -26,8 +26,9 @@
                 <exclude>**/demos/**</exclude>
                 <exclude>bin/**</exclude>
                 <exclude>etc/org.apache.karaf.features.cfg</exclude>
-                <exclude>etc/org.ops4j.pax.logging.cfg</exclude>
                 <exclude>etc/org.apache.felix.fileinstall-deploy.cfg</exclude>
+                <exclude>etc/org.ops4j.pax.logging.cfg</exclude>
+                <exclude>etc/org.ops4j.pax.web.cfg</exclude>
                 <exclude>etc/system.properties</exclude>
                 <exclude>karaf-manual*.*</exclude>
                 <exclude>LICENSE</exclude>
@@ -39,14 +40,10 @@
 
         <!-- Karaf binaries with correct file mode -->
         <fileSet>
-            <directory>target/dependencies/apache-karaf-${karaf.version}
-            </directory>
+            <directory>target/dependencies/apache-karaf-${karaf.version}</directory>
             <outputDirectory>/</outputDirectory>
             <includes>
-                <include>bin/admin</include>
-                <include>bin/karaf</include>
-                <include>bin/start</include>
-                <include>bin/stop</include>
+                <include>bin/*</include>
             </includes>
             <fileMode>0755</fileMode>
         </fileSet>

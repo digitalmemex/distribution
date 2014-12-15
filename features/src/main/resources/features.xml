@@ -2,26 +2,9 @@
 
 <features name="dmx-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
 
-    <feature name="dmx-console" description="Administration Webinterface (Karaf WebConsole)" version="${project.version}">
-        <config name="org.apache.karaf.webconsole">
-            realm=karaf
-            role=${karaf.admin.role}
-        </config>
-        <bundle>mvn:org.apache.felix/org.apache.felix.metatype/1.0.4</bundle>
-        <bundle>mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.branding/${karaf.version}</bundle>
-        <bundle>mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.console/${karaf.version}</bundle>
-        <bundle>mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.admin/${karaf.version}</bundle>
-        <bundle>mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.features/${karaf.version}</bundle>
-        <bundle>mvn:org.apache.karaf.webconsole/org.apache.karaf.webconsole.gogo/${karaf.version}</bundle>
-        <bundle>mvn:org.apache.felix/org.apache.felix.webconsole.plugins.event/1.0.2</bundle>
-    </feature>
-
-    <feature name="dmx-core" description="Digital MemeX Distribution" version="${project.version}">
-        <bundle>mvn:de.deepamehta/deepamehta-webactivator/0.3.1</bundle>
-        <bundle>mvn:de.deepamehta/deepamehta-csv/0.0.1</bundle>
-        <bundle>mvn:de.deepamehta/deepamehta-images/0.9</bundle>
-        <bundle>mvn:de.deepamehta/deepamehta-mail/0.1</bundle>
-        <bundle>mvn:org.digitalmemex/dmx-webclient/0.0.3-SNAPSHOT</bundle>
+    <feature name="dmx" description="DigitalMemeX Distribution" version="${project.version}">
+        <feature version="${dm4.version}">dm4-standard</feature>
+        <bundle>mvn:de.deepamehta/dm44-deepamehta-csv/0.0.4</bundle>
     </feature>
 
 </features>
