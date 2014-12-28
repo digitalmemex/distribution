@@ -7,7 +7,6 @@
         <format>tar.gz</format>
     </formats>
 
-
     <files>
         <!-- copy README to / -->
         <file>
@@ -70,10 +69,17 @@
             <fileMode>0644</fileMode>
         </fileSet>
 
-        <!-- offline repository -->
+        <!-- offline OSGi repository -->
         <fileSet>
             <directory>target/features-repo</directory>
             <outputDirectory>/system</outputDirectory>
+        </fileSet>
+
+        <!-- offline repository -->
+        <fileSet>
+            <directory>target/dependencies/repository-manager</directory>
+            <outputDirectory>/deepamehta-files/dmx/repository-manager</outputDirectory>
+            <useDefaultExcludes>false</useDefaultExcludes>
         </fileSet>
     </fileSets>
 </assembly>

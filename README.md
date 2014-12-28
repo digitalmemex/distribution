@@ -13,6 +13,9 @@ The standard OSGi HTTP Port is 17071
 
 ### access the underlying components
 
+DigitalMemeX Repository Manager
+* URL : [/dmx](http://localhost:17071/dmx)
+
 DeepaMehta 4 Webclient
 * User: admin
 * Pass:
