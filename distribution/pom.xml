@@ -6,7 +6,7 @@
     <groupId>org.digitalmemex</groupId>
     <artifactId>distribution</artifactId>
     <version>0.0.2-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>DigitalMemeX :: Distribution</name>
 
     <parent>
@@ -35,9 +35,16 @@
             <type>xml</type>
             <classifier>features</classifier>
         </dependency>
+        <dependency>
+            <groupId>org.digitalmemex</groupId>
+            <artifactId>utils</artifactId>
+            <version>${project.version}</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
+        <finalName>dmx</finalName>
         <resources>
             <resource>
                 <directory>${project.basedir}/src/main/filtered-resources</directory>
@@ -164,7 +171,7 @@
                             <descriptors>
                                 <descriptor>src/main/descriptors/assembly.xml</descriptor>
                             </descriptors>
-                            <finalName>dmx-${project.version}</finalName>
+                            <finalName>${project.build.finalName}-${project.version}</finalName>
                             <tarLongFileMode>gnu</tarLongFileMode>
                             <appendAssemblyId>false</appendAssemblyId>
                         </configuration>

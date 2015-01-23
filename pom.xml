@@ -29,6 +29,7 @@
         <module>features</module>
         <module>branding</module>
         <module>distribution</module>
+        <module>utils</module>
     </modules>
 
     <build>
