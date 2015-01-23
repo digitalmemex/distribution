@@ -24,4 +24,4 @@ DeepaMehta 4 Webclient
 Karaf WebConsole
 * User: karaf
 * Pass: karaf
-* URL : [/system/console](http://localhost:17071/de.deepamehta.webclient)
+* URL : [/system/console](http://localhost:17071/system/console)
