@@ -83,7 +83,7 @@
                         <configuration>
                             <descriptors>
                                 <descriptor>mvn:org.apache.karaf.assemblies.features/standard/${karaf.version}/xml/features</descriptor>
-                                <descriptor>mvn:de.deepamehta.assemblies.features/deepamehta-standard/${dm4.version}/xml/features</descriptor>
+                                <descriptor>mvn:de.deepamehta/deepamehta-features/${dm4.version}/xml/features</descriptor>
                                 <descriptor>mvn:org.digitalmemex/features/${project.version}/xml/features</descriptor>
                             </descriptors>
                             <features>
