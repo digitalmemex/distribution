@@ -3,7 +3,7 @@
 <features name="dmx-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
 
     <feature name="dmx" description="DigitalMemeX Distribution" version="${project.version}">
-        <feature version="${dm4.version}">dm4-standard</feature>
+        <feature version="${dm4.version}">dm4-standard-distribution</feature>
         <bundle>mvn:de.deepamehta/dm44-deepamehta-csv/0.0.4</bundle>
         <bundle>mvn:org.digitalmemex/bootstrap/0.0.1-SNAPSHOT</bundle>
     </feature>
