@@ -1,0 +1,14 @@
+# create standard repository manager application
+{
+    topics: [
+        {
+            type_uri: "dmx.repository",
+            childs: {
+                dmx.repository.name: "repository-manager",
+                dmx.repository.description: "Digital MemeX Repository Manger",
+                dmx.repository.uri: "https://github.com/digitalmemex/repository-manager",
+                dmx.repository.status: "ref_uri:dmx.repository.status.installed"
+            }
+        }
+    ]
+}

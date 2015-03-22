@@ -25,6 +25,7 @@
     </properties>
 
     <modules>
+        <module>bundles</module>
         <module>features</module>
         <module>branding</module>
         <module>distribution</module>
