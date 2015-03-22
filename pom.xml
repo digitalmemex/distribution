@@ -5,17 +5,16 @@
 
     <groupId>org.digitalmemex</groupId>
     <artifactId>global</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>DigitalMemeX :: Global</name>
 
     <properties>
-        <dmx.port>17071</dmx.port>
         <karaf.name>dmx</karaf.name>
         <karaf.version>2.4.0</karaf.version>
 
         <dm4.version>4.5</dm4.version>
-        <dm4.host.url>http://localhost:${dmx.port}</dm4.host.url>
+        <dm4.host.url>http://localhost:17071</dm4.host.url>
 
         <dm4.security.read_requires_login>true</dm4.security.read_requires_login>
         <dm4.security.write_requires_login>true</dm4.security.write_requires_login>

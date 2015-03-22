@@ -25,3 +25,9 @@ Karaf WebConsole
 * User: karaf
 * Pass: karaf
 * URL : [/system/console](http://localhost:17071/system/console)
+
+Karaf SSH Console
+* User: karaf
+* Pass: karaf
+* Host: localhost
+* Port: 18081
