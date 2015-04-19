@@ -24,6 +24,11 @@
             <version>${dm4.version}</version>
         </dependency>
         <dependency>
+            <groupId>de.deepamehta</groupId>
+            <artifactId>deepamehta-files</artifactId>
+            <version>${dm4.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.digitalmemex</groupId>
             <artifactId>bootstrap</artifactId>
             <version>${project.version}</version>

@@ -81,7 +81,7 @@ public class DmxBootstrapPlugin extends PluginActivator implements DmxRepository
     @GET
     @Path("/version")
     public String version() {
-        return "0.0.1-17";
+        return "0.0.3";
     }
 
     @GET
