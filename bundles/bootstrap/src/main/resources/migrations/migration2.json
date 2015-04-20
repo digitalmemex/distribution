@@ -5,7 +5,7 @@
             type_uri: "dmx.repository",
             childs: {
                 dmx.repository.name: "repository-manager",
-                dmx.repository.description: "Digital MemeX Repository Manger",
+                dmx.repository.description: "DMX Repository Management UI",
                 dmx.repository.uri: "https://github.com/digitalmemex/repository-manager",
                 dmx.repository.status: "ref_uri:dmx.repository.status.installed"
             }
