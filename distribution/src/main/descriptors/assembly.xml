@@ -20,7 +20,7 @@
         <!-- Karaf runtime -->
         <fileSet>
             <directory>target/dependencies/apache-karaf-${karaf.version}</directory>
-            <outputDirectory>/</outputDirectory>
+            <outputDirectory></outputDirectory>
             <excludes>
                 <exclude>**/demos/**</exclude>
                 <exclude>bin/**</exclude>
@@ -42,7 +42,7 @@
         <!-- Karaf binaries with correct file mode -->
         <fileSet>
             <directory>target/dependencies/apache-karaf-${karaf.version}</directory>
-            <outputDirectory>/</outputDirectory>
+            <outputDirectory></outputDirectory>
             <includes>
                 <include>bin/*</include>
             </includes>
@@ -55,18 +55,18 @@
             <includes>
                 <include>dmx-shell.jar</include>
             </includes>
-            <outputDirectory>/lib/</outputDirectory>
+            <outputDirectory>lib</outputDirectory>
         </fileSet>
 
         <!-- configurations -->
         <fileSet>
             <directory>src/main/distribution</directory>
-            <outputDirectory>/</outputDirectory>
+            <outputDirectory></outputDirectory>
             <fileMode>0644</fileMode>
         </fileSet>
         <fileSet>
             <directory>target/classes/etc</directory>
-            <outputDirectory>/etc/</outputDirectory>
+            <outputDirectory>etc</outputDirectory>
             <lineEnding>unix</lineEnding>
             <fileMode>0644</fileMode>
         </fileSet>
@@ -74,13 +74,13 @@
         <!-- offline OSGi repository -->
         <fileSet>
             <directory>target/features-repo</directory>
-            <outputDirectory>/system</outputDirectory>
+            <outputDirectory>system</outputDirectory>
         </fileSet>
 
         <!-- offline repository -->
         <fileSet>
             <directory>target/dependencies/repository-manager</directory>
-            <outputDirectory>/deepamehta-files/dmx/repository-manager</outputDirectory>
+            <outputDirectory>deepamehta-files/dmx/repository-manager</outputDirectory>
             <useDefaultExcludes>false</useDefaultExcludes>
         </fileSet>
     </fileSets>

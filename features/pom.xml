@@ -6,7 +6,7 @@
     <groupId>org.digitalmemex</groupId>
     <artifactId>features</artifactId>
     <version>0.0.3-SNAPSHOT</version>
-    <name>DigitalMemeX :: Features</name>
+    <name>DMX Features</name>
 
     <parent>
         <groupId>org.digitalmemex</groupId>
@@ -29,7 +29,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
-                <version>2.7</version>
+                <version>${maven.resources.plugin.version}</version>
                 <configuration>
                     <useDefaultDelimiters>false</useDefaultDelimiters>
                     <delimiters>

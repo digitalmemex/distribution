@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Digital MemeX :: Applications</name>
+    <name>DMX Applications</name>
     <groupId>org.digitalmemex</groupId>
     <artifactId>applications</artifactId>
     <version>0.0.3-SNAPSHOT</version>
@@ -40,7 +40,7 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
-                <version>2.5.3</version>
+                <version>${maven.bundle.plugin.version}</version>
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>

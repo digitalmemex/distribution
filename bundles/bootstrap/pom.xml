@@ -4,7 +4,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Digital MemeX :: Bootstrap</name>
+    <name>DMX Bootstrap</name>
     <groupId>org.digitalmemex</groupId>
     <artifactId>bootstrap</artifactId>
     <version>0.0.3-SNAPSHOT</version>
@@ -31,7 +31,7 @@
         <dependency>
             <groupId>org.eclipse.jgit</groupId>
             <artifactId>org.eclipse.jgit</artifactId>
-            <version>3.6.0.201411121045-m1</version>
+            <version>${org.eclipse.jgit.version}</version>
         </dependency>
         <dependency>
             <groupId>com.googlecode.javaewah</groupId>
@@ -67,7 +67,7 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
-                <version>2.5.3</version>
+                <version>${maven.bundle.plugin.version}</version>
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>

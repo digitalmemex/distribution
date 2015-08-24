@@ -4,8 +4,8 @@ collaborative distributed knowledge and coding engine
 
 backend is provided by
 
-* [DeepaMehta 4](https://github.com/digitalmemex/deepamehta)
-* [Karaf](https://karaf.apache.org/)
+* [DeepaMehta](https://github.com/jri/deepamehta) 4.6.1
+* [Karaf](https://karaf.apache.org/) 2.4.0
 
 ## Usage
 

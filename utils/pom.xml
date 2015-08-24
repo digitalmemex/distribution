@@ -7,7 +7,7 @@
     <groupId>org.digitalmemex</groupId>
     <artifactId>utils</artifactId>
     <version>0.0.3-SNAPSHOT</version>
-    <name>DigitalMemeX :: Utils</name>
+    <name>DMX Utils</name>
     <packaging>jar</packaging>
 
     <parent>
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>org.eclipse.jgit</groupId>
             <artifactId>org.eclipse.jgit</artifactId>
-            <version>3.6.0.201411121045-m1</version>
+            <version>${org.eclipse.jgit.version}</version>
         </dependency>
     </dependencies>
 </project>
